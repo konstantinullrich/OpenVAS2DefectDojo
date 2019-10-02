@@ -1,0 +1,13 @@
+save-directory: Reports/openvas
+processed-reports:
+  path: last_processed_reports.csv
+  csv-delimiter: ;
+  csv-quote-character: "|"
+
+openvas-instance:
+  test-env:
+    host: 132.0.0.1
+    port: 9391
+    username: username
+    password: password
+    format_uuid: c1645568-627a-11e3-a660-406186ea4fc5
